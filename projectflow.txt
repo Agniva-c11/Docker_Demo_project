@@ -1,3 +1,6 @@
 1. Create a github repo and connect it with local environment
 2. Create "app.py" and write the code for basic flask application
 3. Create "requirements.txt" for installing the dependencies
+4. run the file
+5. git add-commit-push
+6. Create a dockerfile
