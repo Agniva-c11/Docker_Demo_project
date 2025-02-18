@@ -3,4 +3,13 @@
 3. Create "requirements.txt" for installing the dependencies
 4. run the file
 5. git add-commit-push
-6. Create a dockerfile
+6. Create a dockerfile and write the code
+7. Open "docker desktop" and "docker hub"
+8. pip install docker
+9. Build the docker image : docker build -t "image-name" . , (Ex:mlops-docker-demo)
+10. Run the container : docker run -p 5000:5000 mlops-docker-demo
+11. Tag your image: docker tag mlops-docker-demo agniva22/mlops-docker-demo:latest1
+12. Make sure you stay logged in Docker hub
+13. Push image to docker hub: docker push agniva22/mlops-docker-demo:latest1
+14. Pull image from docker hub: docker pull agniva22/mlops-docker-demo:latest1
+15. Run the pulled image: docker run -p 5000:5000 agniva22/mlops-docker-demo:latest1
